@@ -1,35 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Este texto es el titulo del documento</title>
-</head>
-<body>
-    <header>
-        Este es el titulo
+  </head>
+
+  <body>
+    <header id="titulo">
+      <h1>Este es el titulo</h1>
     </header>
     <nav>
-        Principal | Fotos | Videos | Contacto
+        <a href="index.html">Principal</a> |
+        <a href="fotos.html">Fotos</a> |
+        <a href="videos.html">Videos</a> |
+        <a href="contacto.html">Contacto</a>
+         
     </nav>
 
     <main>
-        <section>
-            <article>
-                Este es el texto del primer articulo
-            </article>
-            <article>
-                Este es el texto del segundo articulo
-            </article>
-        </section>
-        <aside>
-            Cita del articulo uno
-            Cita del articulo dos
-        </aside>
+      <section>
+        <article>Este es el texto del primer articulo</article>
+        <article>Este es el texto del segundo articulo</article>
+        <article>
+            <header>
+                <h1>Titulo del articulo</h1>
+                <time datetime="2023-26-08" pubdate="pubdate">publicado 08-26-2023</time>
+            </header>
+          <p>
+            La muerte es una <em> quimera </em>
+            : porque mientras yo existo, no existe la
+            <i> muerte </i>
+            ;<wbr /> y cuando existe la muerte,<br />
+            <strong> ya no existo yo </strong>. <br />
+            Epicuro de Samos
+          </p>
+          <figure>
+              <img src="arbol.jpg" alt="foto de arbol">
+<figcaption>Fig.1 Arboles</figcaption>
+          </figure>
+        </article>
+        <article>
+            <header>
+                <h1>Codigo</h1>
+            </header>
+            <pre>
+                <code>
+    function cambiarColor(){
+
+        document.body.style.background="#0000FF";
+    }
+
+    document.addEventListener("click",cambiarColor)
+                </code>
+            </pre>
+        </article>
+        <article>Articulo 1</article>
+        <article>Articulo 2</article>
+        <article>Articulo 3</article>
+        <article>Articulo 4</article>
+        <p>
+            <a href="#titulo">Volver a titulo</a>
+        </p>
+      </section>
+      <aside>
+        <p>Cita del articulo uno</p>
+        <p>Cita del articulo dos</p>
+      </aside>
     </main>
     <footer>
-        &copy; Derechos reservados 2016
-    </footer>
-</body>
+        <address>
+            Direccion
+        </address>
+        <small>
 
+            &copy; 
+            Derechos reservados 2023
+            <br>
+            <a href="https://example.com/" target="_blank">Sitio de ejemplo</a><br>
+            <a href="mailto:correo@dominio.com">Correo</a>
+            <p>
+                <a href="https://drive.google.com/file/d/1hQSSu3BRBjhyaAwC9zvp7bl09KcTEz65/view?usp=drive_link" download="ejemplo.pdf">descargar</a>
+            </p>
+        </small>
+    </footer>
+  </body>
 </html>
