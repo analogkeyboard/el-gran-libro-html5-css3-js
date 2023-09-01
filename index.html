@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Este texto es el titulo del documento</title>
-  </head>
 
-  <body>
-    <header id="titulo">
-      <h1>Nuevo titulo</h1>
-    </header>
-    <nav>
-        <a href="index.html">Principal</a> |
-        <a href="fotos.html">Fotos</a> |
-        <a href="videos.html">Videos</a> |
-        <a href="contacto.html">Contacto</a>
-         
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Este texto es el titulo del documento</title>
+</head>
 
-    <main>
-      <section>
-        <article>Este es el texto del primer articulo</article>
-        <article>Este es el texto del segundo articulo</article>
-        <article>
-            <header>
-                <h1>Titulo del articulo</h1>
-                <time datetime="2023-26-08" pubdate="pubdate">publicado 08-26-2023</time>
-            </header>
-          <p>
-            La muerte es una <em> quimera </em>
-            : porque mientras yo existo, no existe la
-            <i> muerte </i>
-            ;<wbr /> y cuando existe la muerte,<br />
-            <strong> ya no existo yo </strong>. <br />
-            Epicuro de Samos
-          </p>
-          <figure>
-              <img src="arbol.jpg" alt="foto de arbol">
-<figcaption>Fig.1 Arboles</figcaption>
-          </figure>
-        </article>
-        <article>
-            <header>
-                <h1>Codigo</h1>
-            </header>
-            <pre>
+<body>
+  <header id="titulo">
+    <h1 >Nuevo titulo</h1>
+  </header>
+  <nav>
+    <a href="index.html">Principal</a> |
+    <a href="formulario.html">Formulario</a> |
+    <a href="contacto.html">Contacto</a>
+
+  </nav>
+
+  <main>
+    <section>
+      <article>Este es el texto del primer articulo</article>
+      <article>Este es el texto del segundo articulo</article>
+      <article>
+        <header>
+          <h1>Titulo del articulo</h1>
+          <time datetime="2023-26-08" pubdate="pubdate">publicado 08-26-2023</time>
+        </header>
+        <p>
+          La muerte es una <em> quimera </em>
+          : porque mientras yo existo, no existe la
+          <i> muerte </i>
+          ;<wbr /> y cuando existe la muerte,<br />
+          <strong> ya no existo yo </strong>. <br />
+          Epicuro de Samos
+        </p>
+        <figure>
+          <img src="arbol.jpg" alt="foto de arbol">
+          <figcaption>Fig.1 Arboles</figcaption>
+        </figure>
+      </article>
+      <article>
+        <header>
+          <h1>Codigo</h1>
+        </header>
+        <pre>
                 <code>
     function cambiarColor(){
 
@@ -54,52 +54,127 @@
     document.addEventListener("click",cambiarColor)
                 </code>
             </pre>
-        </article>
-        <article>Articulo 1</article>
-        <article>Articulo 2</article>
-        <article>Articulo 3</article>
-        <article>Articulo 4</article>
+      </article>
+      <article>Articulo 1</article>
+      <article>Articulo 2</article>
+      <article>Articulo 3</article>
+      <article>Articulo 4</article>
+      <p>
+        <a href="#titulo">Volver a titulo</a>no
+      </p>
+
+      <article>
+        <header>
+
+          <h1>Tablas</h1>
+        </header>
+        <table>
+          <thead>
+            <tr>
+
+              <th colspan="2">Libro</th>
+              <th>Año</th>
+            </tr>
+
+          </thead>
+
+          <tbody>
+
+            <tr>
+              <td>IT</td>
+              <td>Stephen King</td>
+              <td>1986</td>
+            </tr>
+            <tr>
+              <td>Carrie</td>
+              <td>Stephen King</td>
+              <td>1974</td>
+            </tr>
+            <tr>
+              <td>El resplandor</td>
+              <td>Stephen King</td>
+              <td>1977</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <article>
+        <p>Mi pelicula favorita es <span translate="no">Matrix</span></p>
+      </article>
+    </section>
+    <aside>
+      <p>Cita del articulo uno</p>
+      <p>Cita del articulo dos</p>
+      <h1>Lista Sin Ordenar</h1>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+
+      <h1>Lista Con Orden</h1>
+
+      <ol type="A" reversed>
+        <lh>Encabezado de la lista</lh>
+        <li>IT, Stephen King</li>
+        <li>Carrie, Stephen King</li>
+        <li>El Resplandor, Stephen King</li>
+        <li>Misery, Stephen King</li>
+      </ol>
+
+
+      <dl >
+        <lh>Encabezado de la lista de definiciones</lh>
+        <dt>IT</dt>
+        <dd>
+          Tras lustros de tranquilidad y lejania una antigua promesa
+          infantil les hace volver al lugar en el que vivieron su infancia y
+          juventud como una terrible pesadilla.
+        </dd>
+        <dt>Carrie</dt>
+        <dd>Sus compañeros se burlan de ella, pero Carrie tiene un don.
+          Puede mover cosas con su mente. Este es su poder y su gran
+          problema.</dd>
+        <dt>El Resplandor</dt>
+        <dd>Al escritor Jack Torrance le es ofrecido un empleo como cuidador
+          del hotel Overlook durante el invierno junto a su familia.</dd>
+        <dt>Misery</dt>
+        <dd>Paul Sheldon es un famoso escritor de novelas románticas
+          ambientadas en la época victoriana, cuyo personaje principal se llama
+          Misery Chastain.</dd>
+      </dl>
+      </dl>
+      <h1>Blockquote</h1>
+      <blockquote>Cita 1</blockquote>
+      <blockquote>Cita 2</blockquote>
+      <blockquote>Cita 3</blockquote>
+      <blockquote>Cita 4</blockquote>
+
+    </aside>
+  </main>
+  <footer>
+    <address>
+      Direccion
+    </address>
+    <small>
+
+      &copy;
+      Derechos reservados <span contenteditable>2023</span> 
+      <br>
+      <details>
+        <summary>Datos de contacto</summary>
+
+        <a href="https://example.com/" target="_blank">Sitio de ejemplo</a><br>
+        <a href="mailto:correo@dominio.com">Correo</a>
         <p>
-            <a href="#titulo">Volver a titulo</a>no
+          <a href="https://drive.google.com/file/d/1hQSSu3BRBjhyaAwC9zvp7bl09KcTEz65/view?usp=drive_link"
+            download="ejemplo.pdf">descargar</a>
         </p>
-      </section>
-      <aside>
-        <p>Cita del articulo uno</p>
-        <p>Cita del articulo dos</p>
-        <h1>Lista Sin Ordenar</h1>
-        <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
-          <li>Item 5</li>
-        </ul>
+      </details>
+    </small>
+  </footer>
+</body>
 
-        <h1>Lista Con Orden</h1>
-        <ol type="A">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
-          <li>Item 5</li>
-        </ol>
-      </aside>
-    </main>
-    <footer>
-        <address>
-            Direccion
-        </address>
-        <small>
-
-            &copy; 
-            Derechos reservados 2023
-            <br>
-            <a href="https://example.com/" target="_blank">Sitio de ejemplo</a><br>
-            <a href="mailto:correo@dominio.com">Correo</a>
-            <p>
-                <a href="https://drive.google.com/file/d/1hQSSu3BRBjhyaAwC9zvp7bl09KcTEz65/view?usp=drive_link" download="ejemplo.pdf">descargar</a>
-            </p>
-        </small>
-    </footer>
-  </body>
 </html>
