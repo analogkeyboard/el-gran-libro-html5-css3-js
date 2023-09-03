@@ -10,7 +10,7 @@
 <body>
 
     <section>
-        <form name="formulario" method="" action="">
+        <form name="formulario" method="get" action="">
             <p>
                 <label for="nombre">
                     Nombre:
@@ -20,7 +20,7 @@
             <p>
                 <label for="edad">
                     Edad:
-                    <input type="number" name="edad" value="35" id="edad" min="13" max="20">
+                    <input type="number" name="edad" value="13" id="edad" min="13" max="20">
                 </label>
             </p>
             <p>
@@ -39,6 +39,58 @@
             <p>
                 <label for="sitio_web">Sitio Web</label>
                 <input type="url" id="sitio_web">
+            </p>
+
+            <p>
+                <input type="radio" name="edad" value="15" checked  >
+                <label for="">15 años</label>
+            </p>
+
+            <p>
+                <input type="radio" name="edad" value="30">
+                <label for="">30 años</label>
+            </p>
+
+            <p>
+                <input type="radio" name="edad" value="45">
+                <label for="">45 años</label>
+            </p>
+
+            <p>
+                <input type="radio" name="edad" value="60">
+                <label for="">60 años</label>
+            </p>
+            <p>
+                <input type="checkbox" name="edad15" value="15" checked  >
+                <label for="">15 años</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="edad30" value="30">
+                <label for="">30 años</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="edad45" value="45">
+                <label for="">45 años</label>
+            </p>
+
+            <p>
+                <input type="checkbox" name="edad60" value="60">
+                <label for="">60 años</label>
+            </p>
+            <p>
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha" value="2023-09-02">
+            </p>
+            <p>
+                <label for="color">Color:</label>
+                <input type="color" name="color" id="color" value="#99BB00">
+            </p>
+            <p>
+                <label for="botonimagen">Boton imagen</label>
+                <br>
+                <input type="image" src="botonenviar.png" width="100">
             </p>
             <p><input type="submit" value="Enviar Datos"></p>
         </form>
