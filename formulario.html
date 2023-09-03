@@ -20,8 +20,25 @@
             <p>
                 <label for="edad">
                     Edad:
-                    <input type="text" name="edad" value="35" id="edad">
+                    <input type="number" name="edad" value="35" id="edad" min="13" max="20">
                 </label>
+            </p>
+            <p>
+                <label for="rango_edad">Rando edad:</label>
+                <input type="range" name="rango_edad" id="rango_edad" min="13" max="20" value="15">
+            </p>
+            <p>
+                <label for="correo">Correo</label>
+                <input type="email" id="correo">
+                
+            </p>
+            <p>
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono">
+            </p>
+            <p>
+                <label for="sitio_web">Sitio Web</label>
+                <input type="url" id="sitio_web">
             </p>
             <p><input type="submit" value="Enviar Datos"></p>
         </form>
