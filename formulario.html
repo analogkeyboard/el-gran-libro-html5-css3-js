@@ -10,7 +10,7 @@
 <body>
 
     <section>
-        <form name="formulario" method="get" action="">
+        <form name="formulario" method="get" action="respuesta.php">
             <p>
                 <label for="nombre">
                     Nombre:
@@ -92,7 +92,44 @@
                 <br>
                 <input type="image" src="botonenviar.png" width="100">
             </p>
-            <p><input type="submit" value="Enviar Datos"></p>
+            <p>
+            <!--
+
+                <input type="submit" value="Enviar Datos">
+            -->    
+
+            <p>
+                <label for="text_area">Texto: </label>
+                <textarea name="" id="text_area" rows="6"></textarea>
+            </p>
+            <p>
+                <label for="listado">Listado:</label>
+                <select name="" id="listado">
+                    <option value="1">Opcion 1</option>
+                    <option value="2">Opcion 2</option>
+                    <option value="3">Opcion 3</option>
+                    <option value="4">Opcion 4</option>
+                </select>
+            </p>
+
+            <datalist id="datos">
+                <option value="1212121212" label="Telefono 1">
+                <option value="1313131313" label="Telefono 2">
+            </datalist>
+            <p>
+                <label for="">Telefono</label>
+                <input type="tel" name="telefono" id="" list="datos">
+            </p>
+            <p>
+                <label for="progreso">Progreso</label>
+                <progress value="30" max="100">0%</progress>
+            </p>
+            <p>
+                <label for="metro">Metro</label>
+                <progress value="60" min="0" max="100" low="40" high="80" optimum="100">60</progress>
+            </p>
+            <button type="submit">Enviar Datos</button>
+            </p>
         </form>
     </section>
 
