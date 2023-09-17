@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,33 @@
 <body>
 
     <section>
-        <form name="formulario" method="get" action="respuesta.php">
+        <form name="formulario" method="get" action="">
+            <p>
+                <label for="buscar">
+                    Buscar Termino:
+                    <input type="search" name="buscar" id="buscar" placeholder="Ingresar termino" autocomplete="on" autofocus spellcheck="true">
+                </label>
+            </p>
+            <p>
+                <input type="submit" value="Buscar">
+            </p>
+            <p>
+                <label for="correo2">Correo para validar</label>
+                <input type="email" name="correo2" id="correo2" value="a@a.com" required>
+            </p>
+            <p>
+                <input type="submit" name="" id="" value="Enviar correo validado">
+                <input type="submit" name="" id="" value="Enviar correo no validado" formnovalidate>
+            </p>
+            <p>
+                <label for="codigo_postal">Codigo Postal:</label>
+                <input pattern="[0-9]{5}" name="cp" id="codigo_postal" title="Inserte su codigo postal">
+            </p>
+            <p>
+                <label for="archivos_multiple">Archivos Multiple: </label>
+                <input type="file" name="" id="archivos_multiple" multiple>
+            </p>
+            <p><input type="submit" name="" id="" value="Enviar archivos"></p>
             <p>
                 <label for="nombre">
                     Nombre:
@@ -24,7 +50,19 @@
                 </label>
             </p>
             <p>
-                <label for="rango_edad">Rando edad:</label>
+                <label for="edad_desactivado">
+                    Edad desactivado:
+                    <input type="number" name="edad_desactivado" id="edad_desactivado" disabled>
+                </label>
+            </p>
+            <p>
+                <label for="edad_readonly">
+                    Edad readonly:
+                    <input type="number" name="edad_readonly" id="edad_readonly" disabled value="50">
+                </label>
+            </p>
+            <p>
+                <label for="rango_edad">Rango edad:</label>
                 <input type="range" name="rango_edad" id="rango_edad" min="13" max="20" value="15">
             </p>
             <p>
