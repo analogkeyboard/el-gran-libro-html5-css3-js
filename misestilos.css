@@ -1,19 +1,23 @@
+html{
+    background-color: grey;
+}
+
 .miclase:nth-child(1){
     font-size: 36px;
-    background-color: #999;
+    background-color: #ff0000;
 }
 
 .miclase:nth-child(2){
-    background-color: #ccc;
+    background-color: #2e00fb;
 }
 .miclase:nth-child(3){
     font-size: 36px;
-    background-color: #666;
+    background-color: #ff0000;
 }
 
 .miclase:nth-child(4){
     font-size: 50px;
-    background-color: #aaa;
+    background-color: #2e00fb;
 }
 
 .miclase:nth-child(odd){
@@ -22,5 +26,26 @@
 }
 
 .miclase:nth-child(even){
-    color:aqua;
+    color:rgb(0, 255, 8);
+}
+
+
+
+section:not(.mitexto2){
+    margin: 0px;
+}
+
+#titulo{
+ /*
+    font-family: Verdana, sans-serif;
+    font-size: 26px;
+    */
+
+    /*formato en una sola linea de font*/
+    font: bold 26px Verdana,sans-serif;
+}
+
+#descripcion{
+    text-align: center;
+    word-spacing: 20px;
 }
