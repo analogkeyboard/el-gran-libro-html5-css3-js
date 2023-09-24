@@ -57,7 +57,7 @@ section:not(.mitexto2){
     width: 200px;
     height: 100px;
    /* overflow: scroll;*/
-   overflow: hidden;
+   overflow: auto;
 }
 
 a{
