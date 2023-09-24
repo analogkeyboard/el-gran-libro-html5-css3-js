@@ -42,10 +42,24 @@ section:not(.mitexto2){
     */
 
     /*formato en una sola linea de font*/
-    font: bold 26px Verdana,sans-serif;
+    font: bold 26px harrypoter,Verdana,sans-serif;
+    color: pink;
+}
+
+@font-face {
+    font-family: "harrypoter";
+    src: url("harrypotter.TTF");
 }
 
 #descripcion{
     text-align: center;
-    word-spacing: 20px;
+    /*word-spacing: 20px;*/
+    width: 200px;
+    height: 100px;
+   /* overflow: scroll;*/
+   overflow: hidden;
+}
+
+a{
+    text-decoration: none;
 }
