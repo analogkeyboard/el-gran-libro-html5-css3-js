@@ -43,12 +43,27 @@ section:not(.mitexto2){
 
     /*formato en una sola linea de font*/
     font: bold 26px harrypoter,Verdana,sans-serif;
-    color: pink;
+    color: black;
 }
 
 @font-face {
     font-family: "harrypoter";
     src: url("harrypotter.TTF");
+}
+header{
+    font-size: 30px;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: green;
+    background-image: url("ladrillos.avif");
+    background-repeat:repeat-y;
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 20px / 10px ;
+    /*background-size: contain;*/
+    /*background-origin: padding-box;*/
+    /*background-clip: content-box;*/
 }
 
 #descripcion{
