@@ -42,8 +42,10 @@ section:not(.mitexto2){
     */
 
     /*formato en una sola linea de font*/
-    font: bold 26px harrypoter,Verdana,sans-serif;
+    font: bold 30px harrypoter,Verdana,sans-serif;
     color: black;
+    word-spacing: 10px;
+    text-shadow: pink 3px 3px 5px;
 }
 
 @font-face {
@@ -55,15 +57,32 @@ header{
     margin: 30px;
     padding: 15px;
     text-align: center;
+    background: -webkit-linear-gradient(30deg,red,blue);
+    /*
     background-color: green;
     background-image: url("ladrillos.avif");
     background-repeat:repeat-y;
-    border-style: dashed;
+    border:29px solid transparent ;
+    box-shadow: blue 5px 5px 20px  ;
+   */
+    /*
+    border-image-source: url("border.png");
+    border-image-slice: 30;
+    border-image-repeat: round;
+    border-image-outset: 30px;
+    */
+    /*
     border-width: 5px;
     border-radius: 20px / 10px ;
-    /*background-size: contain;*/
-    /*background-origin: padding-box;*/
-    /*background-clip: content-box;*/
+    
+    background-size: contain;
+    background-origin: padding-box;
+    background-clip: content-box;
+    outline-style: dotted;
+    outline-offset: 5px;
+    outline-width: 10px;
+    */
+
 }
 
 #descripcion{
